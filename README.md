@@ -68,10 +68,10 @@ This project implements the RSA (Rivest–Shamir–Adleman) algorithm from scrat
 │                    │───▶│                    │───▶│                    │
 │  "Hello World"     │    │  c = m^e mod n     │    │  [encrypted data]  │
 └────────────────────┘    └────────────────────┘    └────────────────────┘
-                                                             │
-┌────────────────────┐    ┌────────────────────┐            │
-│    Plain Text      │    │    Decryption      │            │
-│                    │◀───│                    │◀───────────┘
+                                                              │
+┌────────────────────┐    ┌────────────────────┐              │
+│    Plain Text      │    │    Decryption      │              │
+│                    │◀───│                    │◀─────────────┘
 │  "Hello World"     │    │  m = c^d mod n     │
 └────────────────────┘    └────────────────────┘
 ```
@@ -204,16 +204,16 @@ This implementation is for educational purposes and demonstrates the principles 
 RSA operations, especially key generation and decryption of large messages, can be computationally intensive. For optimal performance:
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                   RSA Performance Considerations                     │
-├───────────────────────────┬─────────────────────────────────────────┤
-│ Operation                 │ Performance Characteristics              │
-├───────────────────────────┼─────────────────────────────────────────┤
-│ Key Generation            │ Slow - Finding large primes is expensive │
-│ Encryption                │ Moderate - Uses public key (e)           │
-│ Decryption                │ Slow - Uses private key (d)              │
-│ Processing Large Messages │ Slow - Messages must be split into blocks│
-└───────────────────────────┴─────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────┐
+│                   RSA Performance Considerations                      │
+├───────────────────────────┬───────────────────────────────────────────┤
+│ Operation                 │ Performance Characteristics               │
+├───────────────────────────┼───────────────────────────────────────────┤
+│ Key Generation            │ Slow - Finding large primes is expensive  │
+│ Encryption                │ Moderate - Uses public key (e)            │
+│ Decryption                │ Slow - Uses private key (d)               │
+│ Processing Large Messages │ Slow - Messages must be split into blocks │
+└───────────────────────────┴───────────────────────────────────────────┘
 ```
 
 Performance recommendations:
