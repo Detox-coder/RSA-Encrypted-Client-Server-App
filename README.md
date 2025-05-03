@@ -259,8 +259,7 @@ Contributions are welcome! Here's how you can help:
 - 💡 **Suggest features**: Have ideas for improvements? Share them in issues
 - 🛠️ **Submit PRs**: Implement fixes or add new features
 - 📚 **Improve docs**: Help clarify or expand the documentation
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+- 📧 **Email:** amitmondalxii@gmail.com
 
 ## 📜 License
 
