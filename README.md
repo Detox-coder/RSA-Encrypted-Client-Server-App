@@ -91,7 +91,7 @@ No external dependencies required! This project uses only the Python standard li
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rsa-encrypted-client-server.git
+git clone https://github.com/Detox-coder/RSA-Encrypted-Client-Server-App.git
 cd rsa-encrypted-client-server
 
 # Make sure you have Python 3.6+
